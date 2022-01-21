@@ -23,7 +23,7 @@ In my case the most popular problems were:
 
 - connection timeout/refused 
 - wrong credentials
-- permisions denied
+- permissions denied
 
 #### Connection timeout/refused
 
@@ -36,7 +36,7 @@ In my case the most popular problems were:
 - Check out that the username or password is correct
 - Check out that the ssh keys (public/private) are valid
 
-#### Permisions denied
+#### Permissions denied
 
 - Make sure PasswordAuthentication and PubkeyAuthentication ends with `yes`
 - Make sure ChallengeResponseAuthentication and PermitRootLogin ends with `no`
