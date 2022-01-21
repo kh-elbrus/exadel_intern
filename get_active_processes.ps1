@@ -1,0 +1,1 @@
+﻿Get-Process * | Sort-Object Id -Descending | Select-Object Id, ProcessName, Path >> win_processes.txt
